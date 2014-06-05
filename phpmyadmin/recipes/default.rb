@@ -10,7 +10,7 @@ end
 
 package "phpmyadmin"
 
-template "/etc/apache2/sites-enabled/zzz-phpmyadmin" do
+template "/etc/apache2/sites-enabled/zzz-phpmyadmin.conf" do
   source "vhost.erb"
   mode "0660"
 end
